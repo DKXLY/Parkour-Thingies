@@ -10,6 +10,8 @@ import net.minecraft.entity.effect.StatusEffect;
 import net.minecraft.entity.effect.StatusEffectCategory;
 import net.minecraft.entity.player.PlayerEntity;
 
+import static net.dkxly.parkour_thingies.ParkourThingies.soundVolume;
+
 public class IronLeapEffect extends StatusEffect {
     protected IronLeapEffect(StatusEffectCategory category, int color) {
         super(category, color);
@@ -19,7 +21,7 @@ public class IronLeapEffect extends StatusEffect {
     public void applyUpdateEffect(LivingEntity entity, int amplifier) {
         if (entity instanceof PlayerEntity playerEntity) {
             if ((IronLeapBlock.blockPos.getY() + 2f) < playerEntity.getY()) {
-                playerEntity.playSound(ParkourThingiesSounds.LEAP, 0.6f, 1);
+                playerEntity.playSound(ParkourThingiesSounds.LEAP, soundVolume, 1);
             }
         }
         super.applyUpdateEffect(entity, amplifier);

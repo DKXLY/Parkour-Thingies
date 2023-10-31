@@ -16,6 +16,8 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class ParkourThingies implements ModInitializer {
+	public static final float soundVolume = 0.2f;
+
 	public static List<Item> itemList = new ArrayList<>();
 	public static final String MOD_ID = "parkour_thingies";
     public static final Logger LOGGER = LoggerFactory.getLogger("parkour_thingies");

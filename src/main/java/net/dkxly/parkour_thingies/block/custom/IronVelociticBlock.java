@@ -30,9 +30,6 @@ public class IronVelociticBlock extends Block {
 
     @Override
     public void onLandedUpon(World world, BlockState state, BlockPos pos, Entity entity, float fallDistance) {
-        if (entity instanceof PlayerEntity playerEntity) {
-            playerEntity.removeStatusEffect(ParkourThingiesStatusEffects.IRON_VELOCITIC_EFFECT);
-        }
         entity.handleFallDamage(fallDistance, 0f, world.getDamageSources().fall());
     }
 }

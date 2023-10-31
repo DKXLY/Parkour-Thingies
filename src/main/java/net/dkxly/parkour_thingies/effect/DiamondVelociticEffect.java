@@ -11,6 +11,8 @@ import net.minecraft.entity.effect.StatusEffects;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.sound.SoundCategory;
 
+import static net.dkxly.parkour_thingies.ParkourThingies.soundVolume;
+
 public class DiamondVelociticEffect extends StatusEffect {
     protected DiamondVelociticEffect(StatusEffectCategory category, int color) {
         super(category, color);
@@ -20,7 +22,7 @@ public class DiamondVelociticEffect extends StatusEffect {
     public void applyUpdateEffect(LivingEntity entity, int amplifier) {
         if (entity instanceof PlayerEntity playerEntity) {
             if ((DiamondVelociticBlock.blockPos.getY() + 1.5f) < playerEntity.getY()) {
-                playerEntity.playSound(ParkourThingiesSounds.VELOCITIC_WARP, SoundCategory.PLAYERS, 0.6f, 1);
+                playerEntity.playSound(ParkourThingiesSounds.VELOCITIC_WARP, SoundCategory.PLAYERS, soundVolume, 1);
                 Fabridash.dash(playerEntity, 0.7f, false);
 
                 StatusEffectInstance speed = new StatusEffectInstance(StatusEffects.SPEED, 4, 4, true, false, false);
