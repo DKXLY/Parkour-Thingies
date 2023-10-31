@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "parkour_thingies:block/iron_leap_block"
+    }
+  }
+}

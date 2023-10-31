@@ -1,0 +1,12 @@
+{
+    "type": "minecraft:smithing",
+    "base": {
+        "item": "parkour_thingies:iron_velocitic_block"
+    },
+    "addition": {
+        "item": "minecraft:gold_ingot"
+    },
+    "result": {
+        "item": "parkour_thingies:gold_velocitic_block"
+    }
+}

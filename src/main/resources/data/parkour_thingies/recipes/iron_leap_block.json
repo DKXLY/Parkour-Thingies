@@ -1,0 +1,26 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "#i#",
+        "IPI",
+        "iii"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:red_carpet"
+        },
+        "i": {
+            "item": "minecraft:iron_ingot"
+        },
+        "I": {
+            "item": "minecraft:iron_pickaxe"
+        },
+        "P": {
+            "item": "parkour_thingies:gold_plated_emerald_block"
+        }
+    },
+    "result": {
+        "item": "parkour_thingies:iron_leap_block",
+        "count": 1
+    }
+}

@@ -1,0 +1,14 @@
+{
+  "velocitic_warp": {
+    "subtitle": "subtitles.parkour_thingies.velocitic_warp",
+    "sounds": [
+      "parkour_thingies:velocitic_warp"
+    ]
+  },
+  "leap": {
+    "subtitle": "subtitles.parkour_thingies.leap",
+    "sounds": [
+      "parkour_thingies:leap"
+    ]
+  }
+}

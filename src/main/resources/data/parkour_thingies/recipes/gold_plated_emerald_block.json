@@ -1,0 +1,30 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "minecraft:light_weighted_pressure_plate"
+        },
+        {
+            "item": "minecraft:light_weighted_pressure_plate"
+        },
+        {
+            "item": "minecraft:light_weighted_pressure_plate"
+        },
+        {
+            "item": "minecraft:emerald_block"
+        },
+        {
+            "item": "minecraft:light_weighted_pressure_plate"
+        },
+        {
+            "item": "minecraft:light_weighted_pressure_plate"
+        },
+        {
+            "item": "minecraft:light_weighted_pressure_plate"
+        }
+    ],
+    "result": {
+        "item": "parkour_thingies:gold_plated_emerald_block",
+        "count": 1
+    }
+}

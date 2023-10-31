@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "iPi",
+        "PKP",
+        "iii"
+    ],
+    "key": {
+        "i": {
+            "item": "minecraft:iron_ingot"
+        },
+        "P": {
+            "item": "parkour_thingies:sculk_star"
+        },
+        "K": {
+            "item": "parkour_thingies:gold_plated_emerald_block"
+        }
+    },
+    "result": {
+        "item": "parkour_thingies:iron_velocitic_block",
+        "count": 1
+    }
+}

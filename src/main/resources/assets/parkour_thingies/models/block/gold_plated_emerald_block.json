@@ -1,0 +1,6 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "parkour_thingies:block/gold_plated_emerald_block"
+  }
+}

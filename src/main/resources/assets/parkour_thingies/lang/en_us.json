@@ -1,0 +1,23 @@
+{
+  "block.parkour_thingies.diamond_leap_block": "Diamond Velocitic-Leap Block",
+  "block.parkour_thingies.gold_leap_block": "Gold Velocitic-Leap Block",
+  "block.parkour_thingies.iron_leap_block": "Iron Velocitic-Leap Block",
+  "block.parkour_thingies.netherite_leap_block": "Netherite Velocitic-Leap Block",
+  "block.parkour_thingies.gold_plated_emerald_block": "Gold-plated Emerald Block",
+  "block.parkour_thingies.iron_velocitic_block": "Iron Velocitic-Warp Block",
+  "block.parkour_thingies.gold_velocitic_block": "Gold Velocitic-Warp Block",
+  "block.parkour_thingies.diamond_velocitic_block": "Diamond Velocitic-Warp Block",
+  "block.parkour_thingies.netherite_velocitic_block": "Netherite Velocitic-Warp Block",
+  "effect.parkour_thingies.iron_velocitic_effect": "ᴊᴜᴍᴘ ᴛᴏ ᴡᴀʀᴘ!",
+  "effect.parkour_thingies.gold_velocitic_effect": "ᴊᴜᴍᴘ ᴛᴏ ᴡᴀʀᴘ!",
+  "effect.parkour_thingies.diamond_velocitic_effect": "ᴊᴜᴍᴘ ᴛᴏ ᴡᴀʀᴘ!",
+  "effect.parkour_thingies.netherite_velocitic_effect": "ᴊᴜᴍᴘ ᴛᴏ ᴡᴀʀᴘ!",
+  "effect.parkour_thingies.iron_leap_effect": "ᴊᴜᴍᴘ ᴛᴏ ʟᴇᴀᴘ!",
+  "effect.parkour_thingies.gold_leap_effect": "ᴊᴜᴍᴘ ᴛᴏ ʟᴇᴀᴘ!",
+  "effect.parkour_thingies.diamond_leap_effect": "ᴊᴜᴍᴘ ᴛᴏ ʟᴇᴀᴘ!",
+  "effect.parkour_thingies.netherite_leap_effect": "ᴊᴜᴍᴘ ᴛᴏ ʟᴇᴀᴘ!",
+  "subtitles.parkour_thingies.velocitic_warp": "Velocitic Warp",
+  "subtitles.parkour_thingies.leap": "Velocitic Leap",
+  "item.parkour_thingies.sculk_essence": "Sculk Essence",
+  "item.parkour_thingies.sculk_star": "Sculk Star"
+}

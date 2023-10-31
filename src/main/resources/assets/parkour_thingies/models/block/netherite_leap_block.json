@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "up": "parkour_thingies:block/netherite_leap_block/up",
+    "north": "parkour_thingies:block/netherite_leap_block/side",
+    "east": "parkour_thingies:block/netherite_leap_block/side",
+    "west": "parkour_thingies:block/netherite_leap_block/side",
+    "south": "parkour_thingies:block/netherite_leap_block/side",
+    "down": "parkour_thingies:block/netherite_leap_block/down",
+    "particle": "parkour_thingies:block/netherite_leap_block/up"
+  }
+}

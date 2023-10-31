@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "parkour_thingies:item/sculk_core"
+  }
+}

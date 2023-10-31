@@ -1,0 +1,17 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        " # ",
+        "###",
+        " # "
+    ],
+    "key": {
+        "#": {
+            "item": "parkour_thingies:sculk_core"
+        }
+    },
+    "result": {
+        "item": "parkour_thingies:sculk_star",
+        "count": 5
+    }
+}
