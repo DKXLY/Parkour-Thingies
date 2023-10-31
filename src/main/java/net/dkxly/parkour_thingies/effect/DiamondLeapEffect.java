@@ -19,7 +19,7 @@ public class DiamondLeapEffect extends StatusEffect {
     public void applyUpdateEffect(LivingEntity entity, int amplifier) {
         if (entity instanceof PlayerEntity playerEntity) {
             if ((DiamondLeapBlock.blockPos.getY() + 2f) < playerEntity.getY()) {
-                playerEntity.playSound(ParkourThingiesSounds.LEAP, 1, 1);
+                playerEntity.playSound(ParkourThingiesSounds.LEAP, 0.6f, 1);
             }
         }
         super.applyUpdateEffect(entity, amplifier);

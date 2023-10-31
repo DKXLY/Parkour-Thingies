@@ -20,6 +20,6 @@ public class ParkourThingiesItems {
     }
 
     public static void registerModItems() {
-        ParkourThingies.LOGGER.info("Registering cool items for Parkour Thingies.");
+        ParkourThingies.LOGGER.info("Initializing cool items for Parkour Thingies.");
     }
 }
