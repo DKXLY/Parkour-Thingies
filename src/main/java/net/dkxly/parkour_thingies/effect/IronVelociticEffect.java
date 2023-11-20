@@ -6,7 +6,6 @@ import net.dkxly.parkour_thingies.fabridash_api.Fabridash;
 import net.dkxly.parkour_thingies.sounds.ParkourThingiesSounds;
 
 import net.minecraft.entity.LivingEntity;
-import net.minecraft.entity.attribute.AttributeContainer;
 import net.minecraft.entity.effect.StatusEffect;
 import net.minecraft.entity.effect.StatusEffectCategory;
 import net.minecraft.entity.effect.StatusEffectInstance;
@@ -24,7 +23,7 @@ public class IronVelociticEffect extends StatusEffect {
     @Override
     public void applyUpdateEffect(LivingEntity entity, int amplifier) {
         if (entity instanceof PlayerEntity playerEntity) {
-            if ((GoldVelociticBlock.blockPos.getY() + 1.5f) < playerEntity.getY()) {
+            if ((IronVelociticBlock.blockPos.getY() + 1.5f) < playerEntity.getY()) {
                 playerEntity.playSound(ParkourThingiesSounds.VELOCITIC_WARP, SoundCategory.PLAYERS, soundVolume, 1);
                 Fabridash.dash(playerEntity, 0.02f, false);
 
