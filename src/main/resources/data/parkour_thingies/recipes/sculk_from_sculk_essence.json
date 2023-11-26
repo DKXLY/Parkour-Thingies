@@ -1,0 +1,36 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "parkour_thingies:sculk_essence"
+        },
+        {
+            "item": "parkour_thingies:sculk_essence"
+        },
+        {
+            "item": "parkour_thingies:sculk_essence"
+        },
+        {
+            "item": "parkour_thingies:sculk_essence"
+        },
+        {
+            "item": "parkour_thingies:sculk_essence"
+        },
+        {
+            "item": "parkour_thingies:sculk_essence"
+        },
+        {
+            "item": "parkour_thingies:sculk_essence"
+        },
+        {
+            "item": "parkour_thingies:sculk_essence"
+        },
+        {
+            "item": "parkour_thingies:sculk_essence"
+        }
+    ],
+    "result": {
+        "item": "minecraft:sculk",
+        "count": 1
+    }
+}

@@ -1,12 +1,15 @@
 {
-    "type": "minecraft:smithing",
-    "base": {
-        "item": "parkour_thingies:diamond_velocitic_block"
-    },
-    "addition": {
-        "item": "minecraft:netherite_ingot"
-    },
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "parkour_thingies:diamond_velocitic_block"
+        },
+        {
+            "item": "minecraft:netherite_ingot"
+        }
+    ],
     "result": {
-        "item": "parkour_thingies:netherite_velocitic_block"
+        "item": "parkour_thingies:netherite_velocitic_block",
+        "count": 1
     }
 }

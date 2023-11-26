@@ -7,11 +7,16 @@
     ],
     "key": {
         "#": {
-            "item": "parkour_thingies:sculk_core"
+            "item": "parkour_thingies:sculk_essence"
         }
     },
     "result": {
         "item": "parkour_thingies:sculk_star",
-        "count": 5
-    }
+        "count": 1
+    },
+    "unlock": [
+        {
+            "trigger": "minecraft:tick"
+        }
+    ]
 }

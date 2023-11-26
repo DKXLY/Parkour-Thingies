@@ -13,7 +13,7 @@ public class ParkourThingiesItemGroups {
 
 
     public static final ItemGroup PARKOUR_THINGIES = FabricItemGroup.builder()
-            .icon(() -> new ItemStack(Items.STONE))
+            .icon(() -> new ItemStack(ParkourThingiesItems.SCULK_STAR))
             .displayName(Text.literal("Parkour Thingies")).entries((displayContext, entries) -> {
                 for(int i = 0; i < itemList.size(); i++) {
                     entries.add(itemList.get(i));

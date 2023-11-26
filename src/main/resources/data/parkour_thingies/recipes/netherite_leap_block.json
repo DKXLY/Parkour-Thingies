@@ -1,12 +1,15 @@
 {
-    "type": "minecraft:smithing",
-    "base": {
-        "item": "parkour_thingies:diamond_leap_block"
-    },
-    "addition": {
-        "item": "minecraft:netherite_ingot"
-    },
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "parkour_thingies:diamond_leap_block"
+        },
+        {
+            "item": "minecraft:netherite_ingot"
+        }
+    ],
     "result": {
-        "item": "parkour_thingies:netherite_leap_block"
+        "item": "parkour_thingies:netherite_leap_block",
+        "count": 1
     }
 }

@@ -1,0 +1,14 @@
+{
+  "replace": false,
+  "values": [
+    "parkour_thingies:iron_leap_block",
+    "parkour_thingies:gold_leap_block",
+    "parkour_thingies:diamond_leap_block",
+    "parkour_thingies:netherite_leap_block",
+    "parkour_thingies:iron_velocitic_block",
+    "parkour_thingies:gold_velocitic_block",
+    "parkour_thingies:diamond_velocitic_block",
+    "parkour_thingies:netherite_velocitic_block",
+    "parkour_thingies:gold_plated_emerald_block"
+  ]
+}
